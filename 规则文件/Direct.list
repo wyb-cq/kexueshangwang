@@ -1,42 +1,11 @@
-# 全球直连规则集 局域网智能家居 直连
-
-# 局域网智能家居 直连
-- SRC-IP-CIDR,10.10.10.43/32,DIRECT  #  主卧插座
-- SRC-IP-CIDR,10.10.10.44/32,DIRECT  #  主卧床头插座
-- SRC-IP-CIDR,10.10.10.45/32,DIRECT  #  主卧电热毯插座
-- SRC-IP-CIDR,10.10.10.46/32,DIRECT  #  厨房冰箱插座
-- SRC-IP-CIDR,10.10.10.47/32,DIRECT  #  厨房微波炉
-- SRC-IP-CIDR,10.10.10.48/32,DIRECT  #  厨房冰箱
-- SRC-IP-CIDR,10.10.10.49/32,DIRECT  #  书房烤火炉插座
-- SRC-IP-CIDR,10.10.10.56/32,DIRECT  #  儿童房电热毯插座
-- SRC-IP-CIDR,10.10.10.57/32,DIRECT  #  儿童房灯开关
-- SRC-IP-CIDR,10.10.10.59/32,DIRECT  #  小米电视无线
-- SRC-IP-CIDR,10.10.10.60/32,DIRECT  #  主卧小米闹钟
-- SRC-IP-CIDR,10.10.10.61/32,DIRECT  #  次卧小米闹钟
-- SRC-IP-CIDR,10.10.10.62/32,DIRECT  #  儿童房小米闹钟
-- SRC-IP-CIDR,10.10.10.63/32,DIRECT  #  书房小爱音箱
-- SRC-IP-CIDR,10.10.10.64/32,DIRECT  #  多功能网关
-- SRC-IP-CIDR,10.10.10.65/32,DIRECT  #  厨房小米空气炸锅
-- SRC-IP-CIDR,10.10.10.66/32,DIRECT  #  小惊喜座便器PRO
-- SRC-IP-CIDR,10.10.10.67/32,DIRECT  #  格兰仕光波炉
-- SRC-IP-CIDR,10.10.10.68/32,DIRECT  #  小爱老师
-- SRC-IP-CIDR,10.10.10.71/32,DIRECT  #  商贸电脑
-- SRC-IP-CIDR,10.10.10.90/32,DIRECT  #  雷电9-0
-- SRC-IP-CIDR,10.10.10.91/32,DIRECT  #  雷电9-1
-- SRC-IP-CIDR,10.10.10.92/32,DIRECT  #  雷电9-2
-- SRC-IP-CIDR,10.10.10.93/32,DIRECT  #  雷电9-3
-- SRC-IP-CIDR,10.10.10.94/32,DIRECT  #  雷电9-4
-- SRC-IP-CIDR,10.10.10.95/32,DIRECT  #  雷电9-5
-- SRC-IP-CIDR,10.10.10.96/32,DIRECT  #  雷电9-6
-- SRC-IP-CIDR,10.10.10.97/32,DIRECT  #  雷电9-7
-- SRC-IP-CIDR,10.10.10.250/32,DIRECT  #  投屏器
-- SRC-IP-CIDR,10.10.10.254/32,DIRECT  #  向日葵开机棒
+# 全球直连规则集 
 
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
-# MyList
+# MyList  
 # 域名后缀匹配
-DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,wyb.cq.cn  
+DOMAIN-SUFFIX,time.windows.com  
 DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 
@@ -49,7 +18,7 @@ IP-CIDR,219.146.1.66/32,no-resolve
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
-IP-CIDR,219.146.1.66/32,no-resolve
+IP-CIDR,219.146.1.66/32,no-resolve  
 IP-CIDR,219.147.1.66/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,223.5.5.5/32,no-resolve
